@@ -1,0 +1,18 @@
+{
+  "name": "super-dev",
+  "description": "Development marketplace for Super core skills library",
+  "owner": {
+    "name": "chwzr"
+  },
+  "plugins": [
+    {
+      "name": "super",
+      "description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
+      "version": "6.0.3",
+      "source": "./",
+      "author": {
+        "name": "chwzr"
+      }
+    }
+  ]
+}

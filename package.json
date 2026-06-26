@@ -1,0 +1,23 @@
+{
+  "name": "super",
+  "version": "6.0.3",
+  "description": "Super skills and runtime bootstrap for coding agents",
+  "type": "module",
+  "main": ".opencode/plugins/super.js",
+  "keywords": [
+    "pi-package",
+    "skills",
+    "tdd",
+    "debugging",
+    "collaboration",
+    "workflow"
+  ],
+  "pi": {
+    "extensions": [
+      "./.pi/extensions/super.ts"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  }
+}
