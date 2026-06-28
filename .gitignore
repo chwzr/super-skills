@@ -1,9 +1,9 @@
 .worktrees/
 .private-journal/
 .claude/
-# Super runtime working dirs (committed plans/specs under .super/ are NOT ignored)
-.super/brainstorm/
-.super/sdd/
+# Super ephemeral runtime working dirs (brainstorm + sdd).
+# Committed design docs live separately under .super/ and are NOT ignored.
+.super-workspace/
 .DS_Store
 node_modules/
 inspo

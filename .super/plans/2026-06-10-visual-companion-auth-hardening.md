@@ -651,7 +651,7 @@ Run:
 
 ```bash
 cd /Users/drewritter/prime-rad/super
-git check-ignore .super/brainstorm/.last-token || true
+git check-ignore .super-workspace/brainstorm/.last-token || true
 ```
 
 Expected current output: no matching ignore rule.
@@ -670,13 +670,13 @@ Run:
 
 ```bash
 cd /Users/drewritter/prime-rad/super
-git check-ignore .super/brainstorm/.last-token
+git check-ignore .super-workspace/brainstorm/.last-token
 ```
 
 Expected output:
 
 ```text
-.super/brainstorm/.last-token
+.super-workspace/brainstorm/.last-token
 ```
 
 ## Task 9: Full Automated Verification
