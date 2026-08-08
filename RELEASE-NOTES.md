@@ -1,6 +1,10 @@
 # Super Release Notes
 
-## v6.0.3 (2026-06-18)
+## v6.0.4 (2026-08-08)
+
+### Writing
+
+- **Super now writes prose in Simplified Technical English.** The `using-super` bootstrap gained a "Writing Prose" section covering ASD-STE100 Issue 9: word and verb rules, sentence and paragraph limits, the strict / STE-flavored modes, the 39 recurring writer errors as a lookup table, and a verification checklist. It applies to documentation, READMEs, pull-request text, error messages, release notes, comments, and tool descriptions — never to code, identifiers, or command syntax. Because it lives in the bootstrap rather than in its own skill, it is always active and needs no invocation, which is the point: by the time a model decides a writing skill is relevant, the prose is usually already written. This reaches every harness at once, since all six bootstraps read `skills/using-super/SKILL.md`. Note the trade — the always-injected bootstrap grows from 5,881 to 15,212 bytes, roughly 2.4k extra tokens per session and per compaction. (#2)
 
 ### Subagent-Driven Development
 
