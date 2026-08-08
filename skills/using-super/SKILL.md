@@ -120,9 +120,9 @@ The skill itself tells you which.
 
 Instructions say WHAT, not HOW. "Add X" or "Fix Y" doesn't mean skip workflows.
 
-# Writing Prose
+# Writing Style Guide
 
-Write prose in ASD-STE100 Simplified Technical English (Issue 9: 53 rules in 9 sections, 875 approved words). This applies to documentation, READMEs, pull-request text, error messages, release notes, comments, tool descriptions, system prompts, and agent-to-agent messages. It does not apply to code, identifiers, or command syntax. It is not for marketing copy, essays, or anything that needs a voice — STE strips voice on purpose.
+Write prose in ASD-STE100 Simplified Technical English (Issue 9: 53 rules in 9 sections, 875 approved words). This applies to documentation, READMEs, pull-request text, error messages, release notes, comments, tool descriptions, system prompts, and agent-to-agent messages. It does not apply to code, identifiers, or command syntax. It is not for marketing copy, essays, or anything that needs a voice — STE strips voice on purpose. Use it also to communicate with your user. 
 
 Three ways to use it:
 
@@ -272,6 +272,4 @@ Before you present the text, check it against this list:
 
 ## Scope
 
-The mechanical rules above are what removes slop. Full STE also needs human judgment (the right technical noun, whether a sentence "makes good sense") — a checker cannot certify that, and slop is not about that. These rules fix the FORM of slop. They cannot make a hollow paragraph true.
-
-The full standard is free at https://asd-ste100.org (do not paste it in full; it is copyrighted). This guidance is unofficial and not affiliated with ASD. ASD-STE100 is a registered EU trademark (No. 017966390).
+You must follow these rules for all of your output / writing / communication - in the chat with the user, in spec files, design docs, code comments, PRs etc. 
